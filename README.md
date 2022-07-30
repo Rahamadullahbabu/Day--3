@@ -1,6 +1,6 @@
 # Day--3 - Tasks
 
-//1.For the given JSON iterate over all for loop (for,for in)
+//Question--1--For the given JSON iterate over all for loop (for,for in)
 
 //For
 
@@ -32,6 +32,35 @@ var me = {
 for (let x in me) {
    console.log(x + ": "+ me[x])
 }
+
+//Question--2--Create your own resume data in JSON format.
+
+
+
+ var resume={
+    "Name":"A.Rahamadullah",
+    "Age":"27",
+    "Gender":"Male",
+    "Dob" :"08-02-1995",
+    "Fathername":"K.Akbar Ali",
+    "Address":"Pudukkottai",
+    "Education":"BE.Mech",
+    "Mobnum":"0123456789",
+     };
+  
+  console.log(resume);
+
+
+Question--3--REad about the difference between window,screen and document in javascript.
+
+
+ window is the execution context and global object for that context's JavaScript
+document contains the DOM, initialized by parsing HTML
+screen describes the physical display's full screen
+
+
+
+
 
 
 
